@@ -1,8 +1,4 @@
-pipeline {
-  environment {
-    PATH = "$PATH:/usr/bin/docker-compose"
-  }
-  
+pipeline {  
   agent any
   
   stages {
